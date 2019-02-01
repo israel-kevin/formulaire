@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> INSCRIPTION</title>
+
+	<style type="text/css" >
+		td{
+			font-size: 25px;
+		}
+		.fieldset{
+			margin: 0 auto;
+			width: 30%;
+		}
+		input[type="submit"]
+		{
+			display: block;
+			margin: 0 auto;
+		}
+      h1{
+      	text-align: center;
+      }
+      .btn{ align-content: center;
+
+      }
+
+	</style>
+	
+</head>
+
+<body>
+
+<h1><label for="titre" >FORMULAIRE</label></h1>
+  <div class="fieldset"> 
+<form method="GET" name="formulaire" action="">
+	<fieldset>
+		<legend>
+			<h2>
+				INSCRIPTION
+			</h2>
+		</legend>
+		<table>
+			<div class="nom">
+			<tr>
+				<td>
+					<label>Nom :</label>
+				</td>
+				<td>
+					<input type="text" placeholder="nom" id="" name="nom" required/>
+				</td>
+			</tr>
+				
+			</div>
+			<div class="pnom">
+			<tr>
+				<td>
+					<label>Prenom :</label>
+				</td>
+				<td>
+					<input type="text" name="prenom">
+				</td>
+			</tr>
+				
+			</div>
+<div class="mail">
+			<tr>
+				<td>
+					<label>Mail :</label>
+				</td>
+				<td>
+					<input type="email" name="email">
+				</td>
+			</tr>
+				
+			</div>
+			<div class="password">
+			<tr>
+				<td>
+					<label>Password :</label>
+				</td>
+				<td>
+					<input type="password" name="password">
+				</td>
+			</tr>
+				
+			</div>
+			<div class="tel">
+			<tr>
+				<td>
+					<label>Telephone :</label>
+				</td>
+				<td>
+					<input type="tel" min="0" pattern="[0-9]{8}" placeholder="12345678" name="telephone">
+				</td>
+			</tr>
+				
+			</div>
+			<div class="date">
+			<tr>
+				<td>
+					<label>Date:</label>
+				</td>
+				<td>
+					<input type="text" name="date">
+				</td>
+			</tr>
+				
+			</div>
+			<div class="sexe">
+			<tr>
+				<td>
+					Sexe :
+				</td>
+				<td>
+					<input type="radio" name="sexe">M
+				</td>
+				<td>
+					<input type="radio" name="sexe">F
+				</td>
+			</tr>
+				
+			</div>
+			<div class="color">
+			<tr>
+				<td>
+					<label>votre couleur:</label>
+				</td>
+				<td>
+					<input type="color" id="" name="couleur">
+				</td>
+			</tr>
+				
+			</div>
+			<div class="btn">
+			<tr>
+				
+				<td>
+					<input type="submit" name="VALIDER" value="VALIDER">
+				</td>
+			</tr>
+				
+			</div>
+		</table>
+	</fieldset>
+</form> 
+</div>
+</body>
+</html>
